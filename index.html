@@ -1,0 +1,970 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Solve Through || Free Mathematical Solutions">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Solve Through || The online Mathematical Solutions</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital@1&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/yourcode.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="icon" type="image/png" href="favmain.jpeg" />
+    <style>
+        /* width */
+        
+         ::-webkit-scrollbar {
+            width: 10px;
+        }
+        /* Track */
+        
+         ::-webkit-scrollbar-track {
+            background: #f1f1f1;
+        }
+        /* Handle */
+        
+         ::-webkit-scrollbar-thumb {
+            background: #888;
+        }
+        /* Handle on hover */
+        
+         ::-webkit-scrollbar-thumb:hover {
+            background: #555;
+        }
+        
+        body {
+            font-family: 'Balsamiq Sans', cursive!important;
+            background-color: #d0cece;
+        }
+        
+        .container2 {
+            position: relative;
+            top: 140px;
+            width: 42%;
+            color: #fbfbfb;
+            left: 57px;
+            font-weight: normal;
+            text-align: center;
+            border-radius: 10px;
+            word-spacing: 10px;
+            animation-name: left;
+            animation-duration: 5s;
+            animation-delay: 0s;
+            letter-spacing: 2px;
+            padding: 7px 7px 7px 7px;
+            color: #343a40 !important;
+            font-weight: bolder;
+        }
+        
+        @keyframes left {
+            0% {
+                left: -454px;
+                opacity: 0;
+            }
+            90% {
+                opacity: 1;
+            }
+            100% {
+                left: 57px;
+            }
+        }
+        
+        @keyframes opacity {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 0.7;
+            }
+        }
+        
+        @keyframes mobile-left {
+            0% {
+                left: -454px;
+                opacity: 0;
+            }
+            90% {
+                opacity: 1;
+            }
+            100% {
+                left: 40px;
+            }
+        }
+        
+        img {
+            height: 120%;
+            width: 100%;
+            position: absolute;
+            top: 89px;
+            left: 0px;
+            opacity: 0.7;
+            animation-name: opacity;
+            animation-duration: 5s;
+            animation-delay: 0s;
+        }
+        
+        @media (min-width:100px) and (max-width:600px) {
+            .container2 {
+                width: 70%;
+                height: 0%;
+                animation-name: mobile-left;
+                animation-duration: 5s;
+                animation-fill-mode: forwards;
+            }
+            img {
+                height: 220%;
+                width: 200%;
+            }
+            body {
+                background-color: #c7c7c7;
+            }
+        }
+        
+        @media (min-width:50px) and (max-width:800px) {
+            img {
+                height: 220%;
+                width: 200%;
+            }
+            .container2 {
+                height: 58%;
+                width: 80%;
+            }
+            body {
+                background-color: #c7c7c7;
+            }
+            .serve {
+                position: absolute;
+                ;
+                top: 800px;
+            }
+        }
+        
+        @media (min-width:10px) and (max-width:400px) {
+            .container2 {
+                height: 46%;
+                width: 80%;
+            }
+            .h3 {
+                position: relative;
+                top: 0px;
+            }
+            .serve button {
+                padding: 10px;
+            }
+            .serve {
+                position: absolute;
+                ;
+                top: 800px;
+            }
+        }
+        
+        @media (min-width:100px) and (max-width: 1100px) {
+            body {
+                background-color: #c7c7c7;
+            }
+            .services {
+                top: 130px;
+            }
+            .container2 {
+                height: 45%;
+                letter-spacing: 3px;
+            }
+        }
+        /* Style the header with a grey background and some padding */
+        
+        .header {
+            overflow: hidden;
+            background-color: #343a40;
+            padding: 20px 10px;
+        }
+        /* Style the header links */
+        
+        .header a {
+            float: left;
+            color: rgb(255, 255, 255);
+            text-align: center;
+            padding: 12px;
+            text-decoration: none;
+            font-size: 18px;
+            line-height: 25px;
+            border-radius: 4px;
+        }
+        /* Style the logo link (notice that we set the same value of line-height and font-size to prevent the header to increase when the font gets bigger */
+        
+        .header a.logo {
+            font-size: 25px;
+            font-weight: bold;
+        }
+        /* Change the background color on mouse-over */
+        
+        .header a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+        /* Style the active/current link*/
+        
+        .header a.active {
+            background-color: dodgerblue;
+            color: white;
+        }
+        /* Float the link section to the right */
+        
+        .header-right {
+            float: right;
+        }
+        /* Add media queries for responsiveness - when the screen is 500px wide or less, stack the links on top of each other */
+        
+        @media screen and (max-width: 500px) {
+            .header a {
+                float: none;
+                display: block;
+                text-align: left;
+            }
+            .container2 {
+                top: 100px;
+                height: 57%;
+            }
+            .header-right {
+                float: none;
+            }
+            .services {
+                top: 200px;
+            }
+            .serve {
+                position: absolute;
+                ;
+                top: 800px;
+            }
+        }
+        
+        @media screen and (max-width: 300px) {
+            .container2 {
+                top: 317px;
+                height: 68%;
+            }
+        }
+        
+        .services {
+            position: relative;
+            top: 618px;
+        }
+        
+        h3 {
+            text-align: center !important;
+            color: #343a40;
+            font-weight: bold;
+        }
+        /* @media (min-width:100px) and (max-width: 500px){
+            h3{
+                position: relative;
+                top: 120px;
+            }
+            h5{
+                position: relative;
+                top: 125px;
+            }
+        }  */
+        
+        @media (min-width:100px) and (max-width: 500px) {
+            .services {
+                position: relative;
+                top: 500px;
+            }
+        }
+        
+        .services h5 {
+            position: relative;
+            top: -2px;
+            text-align: center;
+            font-weight: bold;
+            color: #343a40;
+        }
+        
+        .smartphone {
+            position: relative;
+            width: 235px;
+            height: 414px;
+            margin: auto;
+            border: 16px black solid;
+            border-top-width: 50px;
+            border-bottom-width: 60px;
+            border-radius: 36px;
+            background-color: transparent;
+            top: 600px;
+        }
+        /* The horizontal line on the top of the device */
+        
+        .smartphone:before {
+            content: '';
+            display: block;
+            width: 60px;
+            height: 5px;
+            position: absolute;
+            top: -25px;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background: #333;
+            border-radius: 10px;
+        }
+        /* The circle on the bottom of the device */
+        
+        .smartphone:after {
+            content: '';
+            display: block;
+            width: 35px;
+            height: 35px;
+            position: absolute;
+            left: 50%;
+            bottom: -65px;
+            transform: translate(-50%, -50%);
+            background: #333;
+            border-radius: 50%;
+        }
+        
+        .smartphone.content {
+            width: 600px;
+            height: 100%;
+            background: white;
+            position: absolute;
+            color: #333;
+            top: 10px;
+            margin: auto;
+            text-align: center;
+        }
+        
+        .header {
+            position: fixed;
+            top: 0;
+            z-index: 1;
+            width: 100%;
+            background-color: #343a40;
+        }
+        /* The progress container (grey background) */
+        
+        .progress-container {
+            width: 100%;
+            height: 8px;
+            background: #ccc;
+        }
+        /* The progress bar (scroll indicator) */
+        
+        .progress-bar {
+            height: 8px;
+            background: rgb(4, 163, 255);
+            width: 0%;
+        }
+        
+        @media (min-width: 100px)and(max-width: 500px) {
+            .services {
+                position: absolute;
+                top: 200px;
+            }
+            .serve {
+                position: absolute;
+                top: 800px;
+            }
+        }
+        
+        .serve {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            grid-gap: 15px;
+            justify-content: center;
+            padding-left: 100px;
+            padding-right: 100px;
+            padding-top: 15Spx;
+            position: relative;
+            grid-gap: 38px;
+            /* padding: 38px; */
+            margin: 78px;
+            font-size: 23px;
+            top: 600px;
+        }
+        
+        .serve button {
+            outline: none;
+            border-radius: 22px;
+            background-color: #007bff;
+            color: #ffffff;
+            border: 2px solid #b3bbb4;
+            box-shadow: black 2px 2px 28px 0px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+        }
+        
+        @media (min-width: 100px)and(max-width: 500px) {
+            .serve button {
+                position: absolute;
+                top: 800px;
+            }
+        }
+        
+        @media screen and (max-width: 500px) {
+            button {
+                position: relative;
+                top: 161px;
+                padding: 32px;
+            }
+            .smartphone {
+                position: relative;
+                top: 800px;
+            }
+        }
+        
+        .con {
+            border: #343a40 5px solid;
+            border-radius: 10px;
+            padding-left: 15px;
+            padding-right: 15px;
+        }
+        
+        .content {
+            width: 100%;
+            height: 100%;
+        }
+        
+        .top {
+            position: absolute;
+            top: 900px;
+            color: white;
+        }
+        
+        .card {
+            top: 800px;
+            position: relative;
+            display: -ms-flexbox;
+            display: flex;
+            -ms-flex-direction: column;
+            flex-direction: column;
+            min-width: 0;
+            word-wrap: break-word;
+            background-color: #fff;
+            background-clip: border-box;
+            border: 1px solid rgba(0, 0, 0, .125);
+            border-radius: .25rem;
+            margin-top: 30px;
+        }
+        
+        .card-body .div {
+            text-align: end;
+            position: relative;
+            bottom: 100px;
+            width: auto;
+            height: auto;
+        }
+        
+        .card-body .div p {
+            text-align: end;
+            width: auto;
+            height: auto;
+            margin-left: 90px;
+        }
+        
+        .card {
+            position: relative;
+            bottom: 0px;
+            background-color: #343a40;
+            color: white;
+        }
+        
+        .btn:not(:disabled):not(.disabled) {
+            cursor: pointer;
+            margin-top: 7px;
+        }
+        
+        .card-body {
+            -ms-flex: 1 1 auto;
+            flex: 1 1 auto;
+            min-height: 1px;
+            padding: 1.55rem;
+            top: 0;
+            bottom: -100px;
+            /* margin-bottom: -100px; */
+            /* padding-left: 5px;
+    padding-right: 5px; */
+        }
+        
+        .con {
+            padding: 20px;
+        }
+        
+        .ab {
+            padding-left: 16px;
+        }
+        
+        @media screen and (max-width: 500px) {
+            .navbar-dark .navbar-toggler {
+                margin-top: -323px;
+                /* position: relative;
+        top: 10px;
+} */
+            }
+        }
+        
+        @media screen and (max-width: 500px) {
+            .smartphone {
+                position: relative;
+                top: 500px;
+            }
+        }
+        
+        @media screen and (max-width: 500px) {
+            .serve {
+                top: 325px;
+            }
+        }
+        
+        @media screen and (max-width: 500px) {
+            .card {
+                top: 500px;
+            }
+        }
+        
+        @media (max-width: 500px) and (min-width: 100px) {
+            .services {
+                position: relative;
+                top: 528px;
+            }
+        }
+        
+        @media screen and (max-width: 500px) {
+            .container2 {
+                position: relative;
+                top: 100px;
+                height: 57%;
+            }
+        }
+        
+        @media (max-width: 500px) and (min-width: 100px) {
+            .services {
+                position: relative;
+                top: 300px;
+            }
+        }
+        
+        @media screen and (max-width: 500px) {
+            .serve {
+                top: 190px;
+            }
+            /* .cross{
+    position: absolute;
+    top: 0px;
+    /* border: 100px solid black;
+} */
+        }
+        
+        @media (min-width: 100px) and (max-width:1000px) {
+            .bb {
+                /* position: initial!important; */
+                /* position: absolute!important;
+    top: 50px;
+    right: 10px; */
+                margin-top: 50px;
+            }
+            .bc {
+                /* position: initial!important; */
+                position: absolute !important;
+                top: 50px;
+                right: 80px;
+            }
+        }
+        
+        .bb {
+            /* position: initial!important; */
+            position: absolute !important;
+            top: 2px;
+            right: 10px;
+        }
+        
+        .bc {
+            /* position: initial!important; */
+            position: absolute !important;
+            top: 2px;
+            right: 80px;
+        }
+        /* .bb{
+    /* position: initial!important;
+    position: absolute;
+    top: 50px;
+    right: 10px;
+}  */
+        
+        @media screen and (max-width:500px) {
+            .closee {
+                /* margin-top: -190px; */
+                /* position: absolute!important; */
+                /* bottom:90px;  */
+                position: relative !important;
+                top: 10px !important;
+                bottom: -100px;
+                /* border: yellow 20px solid; */
+            }
+            .cross {
+                display: none !important;
+            }
+            .bb {
+                /* position: initial!important; */
+                /* position: absolute!important;
+    top: 50px;
+    right: 10px; */
+                margin-top: 50px;
+            }
+            .bc {
+                /* position: initial!important; */
+                position: absolute !important;
+                top: 50px;
+                right: 80px;
+            }
+        }
+        
+        .btn:not(:disabled):not(.disabled) {
+            cursor: pointer;
+            margin-top: 7px;
+            top: 50px;
+        }
+        /* .btn:not(:disabled):not(.disabled) {
+    cursor: pointer;
+    margin-top: 7px;
+    top: 50px;
+    position: relative!important;
+    top: 5px;
+} */
+        
+        @media screen and (max-width:500px) {
+            .smartphone {
+                position: relative;
+                -webkit-transform-origin: 0 0;
+                transform-origin: 0 0;
+                -webkit-transform: scale(.6) translate(-50%);
+                transform: scale(.6) translate(-50%);
+                left: 50%;
+                position: absolute;
+                width: 374px;
+                height: 207px;
+                border-radius: 6px;
+                border-style: solid;
+                border-color: black;
+                border-width: 24px 24px 80px;
+                background-color: black;
+                top: 1450px;
+            }
+            .card {
+                top: 718px;
+            }
+            .smartphone:after {
+                content: '';
+                display: block;
+                position: relative;
+                width: 539px;
+                height: 50px;
+                margin: -57px 0 0 -10px;
+                background: black;
+                border-radius: 6px;
+            }
+        }
+        
+        .smartphone:before {
+            content: '';
+            display: block;
+            position: absolute;
+            width: 214px;
+            height: 22px;
+            bottom: -110px;
+            left: 50%;
+            -webkit-transform: translate(-50%);
+            transform: translate(-50%);
+            background: #f1f1f1;
+            border-bottom-left-radius: 5px;
+            border-bottom-right-radius: 5px;
+            z-index: 1;
+            margin: 210px 0px 0px 0px;
+        }
+        /* The screen (or content) of the device */
+        
+        .smartphone .content {
+            width: 326px;
+            height: 200px;
+            overflow: hidden;
+            border: none;
+        }
+        
+        a {
+            color: white;
+        }
+        
+        @media (min-width: 500px) and (max-width:2000px) {
+            .smartphone .content {
+                width: 203px;
+                height: 305px;
+            }
+            .smartphone:before {
+                display: none;
+            }
+        }
+        
+        .btn:not(:disabled):not(.disabled) {
+            cursor: pointer;
+            margin-top: 7px;
+            top: 58px;
+        }
+        
+        .abbb {
+            font-size: 13px;
+        }
+        
+        #codeit {
+            color: #007bff;
+            text-decoration: underline;
+        }
+        
+        .headoff {
+            color: #007bff;
+            font-weight: bolder;
+        }
+        
+        .hreff {
+            padding: 4px 10px 3px 10px;
+            background-color: #007bff;
+            border-radius: 50%;
+            height: 20px;
+            margin: 50px 0px -16px 10px;
+            margin-top: 53px;
+        }
+        
+        .codewithharry {
+            margin-top: 15px;
+        }
+    </style>
+</head>
+
+
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark  navsss">
+        <a class="navbar-brand" href="#">Solve Through</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="AboutUs.html">Contact</a>
+                </li>
+                <!-- <li class="nav-item">
+                <a class="nav-link" data-toggle="modal" data-target="#signModal">Sign up</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" data-toggle="modal" data-target="#exampleModal">Login</a>
+              </li> -->
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="services.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Solutions
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="Rd_sharma_solutions_classes.html">RD Sharma</a>
+
+                        <a class="dropdown-item" href="Ncert.html">NCERT</a>
+
+                        <a class="dropdown-item" href="#">RS Aggrawal</a>
+
+                        <a class="dropdown-item" href="#">S Chand</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="services.html">Solutions page</a>
+                    </div>
+
+
+            </ul>
+
+
+        </div>
+        </div>
+
+        <!-- Modal -->
+        <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Log In</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span class="cross" aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+
+
+                        <form>
+                            <div class="form-group">
+                                <label for="exampleInputEmail1">Email address</label>
+                                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                                <small id="emailHelp" class="form-text text-muted">We'll never share your email with
+                                    anyone else.</small>
+                            </div>
+                            <div class="form-group">
+                                <label for="exampleInputPassword1">Password</label>
+                                <input type="password" class="form-control" id="exampleInputPassword1">
+                            </div>
+                            <div class="form-group form-check">
+                                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                            </div>
+                            <div class="modal-footer"></div>
+                            <button type="submit" class="btn btn-primary closee">Login </button>
+                            <button type="button" class="btn btn-secondary closee" data-dismiss="modal">Close</button>
+                        </form>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <!-- Button trigger modal -->
+
+
+
+        <div class="modal fade" id="signModal" tabindex="-1" role="dialog" aria-labelledby="signModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="signModalLabel">Sign In</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span class="cross" aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <form>
+                            <div class="form-row">
+                                <div class="form-group col-md-6">
+                                    <label for="inputAddress">First Name</label>
+                                    <input type="text" class="form-control" id="inputAddress">
+                                </div>
+                                <div class="form-group col-md-6">
+                                    <label for=" inputEmail4 ">Last Name</label>
+                                    <input type="text" class="form-control" id="inputPassword4">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="inputEmail4">Email</label>
+                                <input type="email" class="form-control" id="inputEmail4">
+                            </div>
+                            <div class="form-group">
+                                <label for="inputPassword4">Password</label>
+                                <input type="text" class="form-control" id="inputAddress2">
+                            </div>
+                            <div class="form-group">
+                                <label for="inputPassword4">Confirm Password</label>
+                                <input type="text" class="form-control" id="inputAddress2">
+                            </div>
+                            <div class="form-row"></div>
+
+
+                            <div class="form-group">
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" id="gridCheck">
+                                    <label class="form-check-label" for="gridCheck">
+                                        Remember Me
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary  closee" data-dismiss="modal">Close</button>
+                                <button type="submit" class="btn btn-primary closee">Sign in</button>
+                        </form>
+                        </div>
+
+
+
+                        </form>
+                    </div>
+                </div>
+            </div>
+    </nav>
+
+    <button type="button" class="btn btn-primary bb" data-toggle="modal" data-target="#exampleModal">
+        Login
+    </button>
+    <button type="button" class="btn btn-primary bc" data-toggle="modal" data-target="#signModal">
+        Signup
+    </button>
+
+    <!-- <img src="bg4.jpg" alt=""> -->
+    <div class="container2">
+        <div class="con">
+
+            <h1>Solve Through</h1>
+            <p> Whatever Solutions You Are Hoping To get are Available in our website , and we will provide you Professional Maths Solutions in Every step of the way. Take a look at our site and see what can we do for you today. </p>
+
+        </div>
+    </div>
+    <div class="services">
+        <h3>We Provide Our Students The Mathematical Solutions</h3>
+        <h5>So They Won't Stop Learning</h5>
+    </div>
+    <div class="serve">
+        <button id="Ncert"><a href="Ncert.html">Ncert Solutions</a>
+            <button><a href="Rd_sharma_solutions_classes.html">RD Sharma Solutions</button></a>
+        <button><a href="com.html">RS Aggarwal Solutions</a></button>
+        <button><a href="com.html">S Chand Solutions</a></button>
+    </div>
+
+    <div class="smartphone">
+
+        <div class="content">
+
+            <iframe src="NCERT_Class6copy.html" style="width:100%;border:none;height:100%"></iframe>
+
+        </div>
+
+    </div>
+    <div class="card text-center">
+        <div class="card-header">
+            Featured
+        </div>
+        <div class="card-body">
+            <h5 class="card-title">We are Always Here for You</h5>
+            <p class="card-text">Thanks a Lot For Visiting Us.</p>
+            <p class="card-text">Contact Us on +919915972220.</p>
+            <div class="covert">
+                <h5 class="card-title headoff">Join Conversation On</h5>
+                <a class="hreff" href="#" class="facebook"><i class="fa fa-facebook"></i></a>
+                <a class="hreff" href="#" class="twitter"><i class="fa fa-twitter"></i></a>
+                <a class="hreff" href="mailto:www.rishiahuja@gmail.com" class="Gmail"><i class="fa fa-envelope"></i></a>
+                <a class="hreff" href="#" class="whatsapp"><i class="fa fa-whatsapp"></i></a>
+            </div>
+            <div class="codewithharry">
+                <p class="card-text abbb"> My Idol: <a id="codeit" target="_blank" href="https://www.codewithharry.com/">CodeWithHarry </a><br>Learn programmimg Here &#8593</p>
+
+            </div>
+            <a href="AboutUs.html" class="btn btn-primary">Explore</a>
+            <a class="card-text ab  btn btn-primary" href="index.html">Back to top</a></p>
+        </div>
+        <div class="card-footer text-muted">
+            Visit Again
+        </div>
+    </div>
+
+
+</body>
+<script>
+    window.onscroll = function() {
+        myFunction()
+    };
+
+    function myFunction() {
+        var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+        var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+        var scrolled = (winScroll / height) * 100;
+        document.getElementById("myBar").style.width = scrolled + "%";
+    }
+</script>
+
+</html>

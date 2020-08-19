@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  background: #f1f1f1;
+}
+@media screen and (max-width: 500px){
+
+.smartphone {
+    position: relative;
+    top: 500px;
+}
+}
+/* The laptop with borders */
+.laptop {
+    position: relative;
+    -webkit-transform-origin: 0 0;
+    transform-origin: 0 0;
+    -webkit-transform: scale(.6) translate(-50%);
+    transform: scale(.6) translate(-50%);
+    left: 50%;
+    position: absolute;
+    width: 326px;
+    height: 140px;
+    border-radius: 6px;
+    border-style: solid;
+    border-color: black;
+    border-width: 24px 24px 80px;
+    background-color: black;
+    top: 600px;
+}
+/* The keyboard of the laptop */
+.laptop:after {
+    content: '';
+    display: block;
+    position: absolute;
+    width: 539px;
+    height: 50px;
+    margin: 20px 0 0 -110px;
+    background: black;
+    border-radius: 6px;
+}
+
+/* The top of the keyboard */
+.laptop:before {
+  content: '';
+  display: block;
+  position: absolute;
+  width: 250px;
+  height: 25px;
+  bottom: -110px;
+  left: 50%;
+  -webkit-transform: translate(-50%);
+  transform: translate(-50%);
+  background: #f1f1f1;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  z-index: 1;
+}
+
+/* The screen (or content) of the device */
+.laptop .content {
+  width: 326px;
+  height: 200px;
+  overflow: hidden;
+  border: none;
+}
+.cc{
+    display: none;
+}
+
+@media screen and (max-width:800px){
+    .cc{
+        display: block;
+       
+    }
+}
+</style>
+</head>
+<body>
+<div class="cc">
+    <div class="laptop">
+      <div class="content">
+        <iframe src="NCERT_Class6copy2.html" style="width:100%;border:none;height:100%" />
+      </div>
+    </div>
+
+</div>
+
+</body>
+</html>
